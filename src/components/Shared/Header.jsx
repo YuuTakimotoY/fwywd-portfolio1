@@ -5,7 +5,7 @@ const headerLinks = ['about', 'skills', 'values', 'future'];
 
 export default function Header() {
   return (
-    <header className='container flex justify-between items-center mx-auto'>
+    <header className='flex justify-between items-center mx-auto'>
       <Link href='/' passHref>
         <Image src='/logo.png' width={161} height={56} alt='Logo' objectFit='contain' />
       </Link>
