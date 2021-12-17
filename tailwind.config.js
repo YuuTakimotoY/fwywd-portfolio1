@@ -12,9 +12,9 @@ module.exports = {
     }),
     extend: {
       backgroundImage: (theme) => ({
-        about: "url('/images/bg-about.png')",
-        skills: "url('/images/bg-skills.png')",
-        future: "url('/images/bg-future.png')",
+        about: "url('/bg-about.png')",
+        skills: "url('/bg-skills.png')",
+        future: "url('/bg-future.png')",
       }),
     },
     colors: {
