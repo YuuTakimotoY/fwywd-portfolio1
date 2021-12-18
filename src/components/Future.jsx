@@ -32,7 +32,7 @@ export default function Feature() {
                 src={about.img_src}
                 alt={about.img_alt}
                 width={480}
-                height={251}
+                height={250}
                 objectFit='contain'
               />
             </div>
