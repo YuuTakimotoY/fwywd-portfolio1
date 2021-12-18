@@ -18,9 +18,9 @@ const skills = [
 
 export default function Skills() {
   return (
-    <div className='mx-auto'>
+    <div className='mx-auto bg-skills'>
       <section
-        className='flex flex-col pt-8 pb-16 mx-12 lg:mx-0 -mt-8 text-center bg-skills'
+        className='flex flex-col pt-8 pb-16 mx-12 lg:mx-0 -mt-8 text-center'
         id='skills'
         style={{ backgroundSize: '100% 100%' }}
       >

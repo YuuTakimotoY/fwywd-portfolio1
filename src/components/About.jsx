@@ -32,9 +32,9 @@ const abouts = [
 
 export default function About() {
   return (
-    <div className='mx-auto'>
+    <div className='mx-auto bg-about'>
       <section
-        className='flex flex-col pt-8 pb-16 mx-12 lg:mx-0 text-center bg-about'
+        className='flex flex-col pt-8 pb-16 mx-12 lg:mx-0 text-center'
         id='about'
         style={{ backgroundSize: '100% 80vh' }}
       >
