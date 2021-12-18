@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Skillbar from './Shared/Skillbar';
 import Title from './Shared/Title';
 
 const about = {
@@ -32,7 +31,7 @@ export default function Feature() {
                 src={about.img_src}
                 alt={about.img_alt}
                 width={480}
-                height={250}
+                height={251}
                 objectFit='contain'
               />
             </div>

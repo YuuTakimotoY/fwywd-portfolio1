@@ -20,21 +20,16 @@ export default function Skills() {
   return (
     <div className='mx-auto'>
       <section
-        className='flex flex-col pt-8 pb-16 mx-12 lg:mx-0 text-center bg-skills'
+        className='flex flex-col pt-8 pb-16 mx-12 lg:mx-0 -mt-8 text-center bg-skills'
         id='skills'
         style={{ backgroundSize: '100% 100%' }}
       >
         <div className='mx-auto max-w-screen-lg'>
           <div className='ml-auto w-1/2'>
-            <Title
-              japaneseTitle='スキル'
-              englishTitle='skills'
-              position='justify-start'
-              className='gap-12'
-            />
+            <Title japaneseTitle='スキル' englishTitle='skills' position='justify-start' />
           </div>
           <div className='flex'>
-            <div className='m-auto w-1/2'>
+            <div className='w-1/2'>
               <Image
                 src={skillAbout.img_src}
                 alt={skillAbout.img_alt}

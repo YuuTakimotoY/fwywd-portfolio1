@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Card from './Shared/Card';
 import Title from './Shared/Title';
 
@@ -40,12 +39,7 @@ export default function About() {
         style={{ backgroundSize: '100% 80vh' }}
       >
         <div className='mx-auto max-w-screen-lg'>
-          <Title
-            japaneseTitle='私について'
-            englishTitle='about'
-            position='justify-center'
-            className='gap-12'
-          ></Title>
+          <Title japaneseTitle='私について' englishTitle='about' position='justify-center'></Title>
           <div className='flex gap-12'>
             {abouts.map((about) => (
               <>
