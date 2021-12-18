@@ -6,23 +6,26 @@ const abouts = [
   {
     img_src: '/about-1.png',
     img_alt: 'about-1',
+    img_width: 185,
+    img_height: 160,
     title: '趣味',
-    titleColor: 'text-green',
     description: 'ゲームが好きです。最近はFPSゲームであるAPEX LEGENDSでよく遊んでいます。',
   },
   {
     img_src: '/about-2.png',
     img_alt: 'about-2',
+    img_width: 205,
+    img_height: 160,
     title: '好きな食べ物',
-    titleColor: 'text-green',
     description:
       'カレーうどんが好きです。休日にはよくカレーうどん専門店に行ったりなどして、人気店巡りなどをしています。',
   },
   {
     img_src: '/about-3.png',
     img_alt: 'about-3',
+    img_width: 245,
+    img_height: 150,
     title: '性格',
-    titleColor: 'text-green',
     description:
       '真面目な性格です。コツコツ努力を積み重ね、物事を実行してきました。はじめてのことにも結果が出るまで諦めずに挑み続けます。',
   },
@@ -49,8 +52,10 @@ export default function About() {
                 <Card
                   img_src={about.img_src}
                   img_alt={about.img_alt}
+                  img_width={about.img_width}
+                  img_height={about.img_height}
                   title={about.title}
-                  titleColor={about.titleColor}
+                  titleColor='text-green'
                   description={about.description}
                 />
               </>
