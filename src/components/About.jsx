@@ -7,12 +7,14 @@ const abouts = [
     img_src: '/about-1.png',
     img_alt: 'about-1',
     title: '趣味',
+    titleColor: 'text-green',
     description: 'ゲームが好きです。最近はFPSゲームであるAPEX LEGENDSでよく遊んでいます。',
   },
   {
     img_src: '/about-2.png',
     img_alt: 'about-2',
     title: '好きな食べ物',
+    titleColor: 'text-green',
     description:
       'カレーうどんが好きです。休日にはよくカレーうどん専門店に行ったりなどして、人気店巡りなどをしています。',
   },
@@ -20,6 +22,7 @@ const abouts = [
     img_src: '/about-3.png',
     img_alt: 'about-3',
     title: '性格',
+    titleColor: 'text-green',
     description:
       '真面目な性格です。コツコツ努力を積み重ね、物事を実行してきました。はじめてのことにも結果が出るまで諦めずに挑み続けます。',
   },
@@ -47,6 +50,7 @@ export default function About() {
                   img_src={about.img_src}
                   img_alt={about.img_alt}
                   title={about.title}
+                  titleColor={about.titleColor}
                   description={about.description}
                 />
               </>
