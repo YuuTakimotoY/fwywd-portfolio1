@@ -38,8 +38,8 @@ export default function Skills() {
               <Image
                 src={skillAbout.img_src}
                 alt={skillAbout.img_alt}
-                width={320}
-                height={240}
+                width={535}
+                height={370}
                 objectFit='contain'
               />
             </div>
