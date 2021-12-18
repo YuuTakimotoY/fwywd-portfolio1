@@ -32,15 +32,11 @@ const abouts = [
 
 export default function About() {
   return (
-    <div className='mx-auto'>
-      <section
-        className='flex flex-col pt-8 pb-16 mx-12 lg:mx-0 text-center bg-about'
-        id='about'
-        style={{ backgroundSize: '100% 80vh' }}
-      >
+    <div className='mx-auto bg-about'>
+      <section className='pt-8 pb-16 mx-12 lg:mx-0 text-center text-black' id='about'>
         <div className='mx-auto max-w-screen-lg'>
           <Title japaneseTitle='私について' englishTitle='about' position='justify-center'></Title>
-          <div className='flex space-x-12'>
+          <div className='grid grid-cols-3 gap-12'>
             {abouts.map((about) => (
               <>
                 <Card
@@ -50,6 +46,7 @@ export default function About() {
                   img_height={about.img_height}
                   title={about.title}
                   titleColor='text-green'
+                  titlePx='text-[24px]'
                   description={about.description}
                 />
               </>

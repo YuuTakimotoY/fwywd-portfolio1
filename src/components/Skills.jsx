@@ -18,9 +18,9 @@ const skills = [
 
 export default function Skills() {
   return (
-    <div className='mx-auto'>
+    <div className='mx-auto bg-skills'>
       <section
-        className='flex flex-col pt-8 pb-16 mx-12 lg:mx-0 -mt-8 text-center bg-skills'
+        className='pt-8 pb-16 mx-12 lg:mx-0 -mt-8 text-center text-black'
         id='skills'
         style={{ backgroundSize: '100% 100%' }}
       >
@@ -39,7 +39,7 @@ export default function Skills() {
               />
             </div>
             <div className='w-1/2'>
-              <p className='pb-4 text-left'>{skillAbout.description}</p>
+              <p className='pb-4 text-[15px] text-left'>{skillAbout.description}</p>
               <div className='pt-4 pb-4 bg-white'>
                 {skills.map((skill, key) => (
                   <Skillbar name={skill.name} progress={skill.progress} key={key} />

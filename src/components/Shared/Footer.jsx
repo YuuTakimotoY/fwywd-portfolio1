@@ -5,8 +5,8 @@ export default function Footer() {
   return (
     <footer className='pt-8 pb-6 mx-auto text-center text-white bg-footer'>
       <div className='flex justify-center mb-5 space-x-2'>
-        <span className='my-auto text-xs'>CREATED BY</span>
-        <span className='text-lg font-bold' id='name'>
+        <span className='my-auto text-[11px]'>CREATED BY</span>
+        <span className='text-[18px] font-bold' id='name'>
           瀧本 佑
         </span>
       </div>
@@ -32,7 +32,7 @@ export default function Footer() {
         </Link>
       </div>
 
-      <span className='text-xs'>&copy; 2021 KIKAGAKU</span>
+      <span className='text-[11px]'>&copy; 2021 KIKAGAKU</span>
     </footer>
   );
 }
