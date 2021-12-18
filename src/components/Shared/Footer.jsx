@@ -28,7 +28,7 @@ export default function Footer() {
         </Link>
       </div>
 
-      <span className='text-xs'>@ 2021 KIKAGAKU</span>
+      <span className='text-xs'>&copy; 2021 KIKAGAKU</span>
     </footer>
   );
 }
