@@ -1,6 +1,7 @@
 import About from '../components/About';
 import Feature from '../components/Feature';
 import Hero from '../components/Hero';
+import Footer from '../components/Shared/Footer';
 import Header from '../components/Shared/Header';
 import Skills from '../components/Skills';
 import Values from '../components/Values';
@@ -14,6 +15,7 @@ export default function Home() {
       <Skills />
       <Values />
       <Feature />
+      <Footer />
     </>
   );
 }
