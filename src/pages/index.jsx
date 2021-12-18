@@ -1,5 +1,5 @@
 import About from '../components/About';
-import Feature from '../components/Feature';
+import Future from '../components/Future';
 import Hero from '../components/Hero';
 import Footer from '../components/Shared/Footer';
 import Header from '../components/Shared/Header';
@@ -14,7 +14,7 @@ export default function Home() {
       <About />
       <Skills />
       <Values />
-      <Feature />
+      <Future />
       <Footer />
     </>
   );
