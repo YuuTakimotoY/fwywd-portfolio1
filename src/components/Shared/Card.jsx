@@ -10,8 +10,8 @@ export default function Card(props) {
         height={props.img_height}
         objectFit='contain'
       />
-      <h3 className={'m-4 text-xl font-bold ' + props.titleColor}>{props.title}</h3>
-      <p className='text-left'>{props.description}</p>
+      <h3 className={'m-4 font-bold ' + props.titleColor + ' ' + props.titlePx}>{props.title}</h3>
+      <p className='text-[15px] text-left'>{props.description}</p>
     </div>
   );
 }

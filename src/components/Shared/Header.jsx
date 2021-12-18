@@ -13,7 +13,7 @@ export default function Header() {
       <nav>
         <ul className='flex'>
           {headerLinks.map((header) => (
-            <li className='mx-5 font-bold text-green uppercase' key={header}>
+            <li className='mx-5 text-[18px] font-bold text-green uppercase' key={header}>
               <Link href={`#${header}`}>{header}</Link>
             </li>
           ))}

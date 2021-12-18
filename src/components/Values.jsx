@@ -34,10 +34,13 @@ const values = [
 export default function Values() {
   return (
     <div className='mx-auto'>
-      <section className='flex flex-col pt-8 pb-16 mx-12 lg:mx-0 text-center' id='values'>
+      <section
+        className='flex flex-col pt-8 pb-16 mx-12 lg:mx-0 text-center text-black'
+        id='values'
+      >
         <div className='mx-auto max-w-screen-lg bg-white'>
           <Title japaneseTitle='価値観' englishTitle='Values' position='justify-center' />
-          <div className='flex py-8 px-4 divide-x-2 divide-border-greenlight'>
+          <div className='grid grid-cols-3 py-8 px-4 divide-x-2 divide-border-greenlight'>
             {values.map((value) => (
               <>
                 <Card
@@ -47,6 +50,7 @@ export default function Values() {
                   img_height={value.img_height}
                   title={value.title}
                   titleColor='text-black'
+                  titlePx='text-[18px]'
                   description={value.description}
                 />
               </>
