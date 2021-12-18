@@ -40,7 +40,7 @@ export default function About() {
       >
         <div className='mx-auto max-w-screen-lg'>
           <Title japaneseTitle='私について' englishTitle='about' position='justify-center'></Title>
-          <div className='flex gap-12'>
+          <div className='flex space-x-12'>
             {abouts.map((about) => (
               <>
                 <Card
